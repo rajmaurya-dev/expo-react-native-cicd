@@ -1,0 +1,53 @@
+{
+	"expo": {
+		"name": "ReactNativeApp",
+		"slug": "react-native-app",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.example.reactnativeapp",
+			"jsEngine": "jsc"
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.example.reactnativeapp",
+			"enableProguardInReleaseBuilds": true
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"jsEngine": "hermes",
+		"plugins": [
+			[
+				"expo-font",
+				{
+					"fonts": [
+						"./assets/fonts/Inter-Regular.ttf",
+						"./assets/fonts/Inter-Bold.ttf",
+						"./assets/fonts/Inter-Medium.ttf"
+					]
+				}
+			],
+			"expo-localization"
+		],
+		"updates": {
+			"fallbackToCacheTimeout": 0,
+			"enabled": true,
+			"checkAutomatically": "ON_LOAD"
+		},
+		"runtimeVersion": {
+			"policy": "sdkVersion"
+		}
+	}
+}
