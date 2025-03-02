@@ -1,10 +1,10 @@
 # 🚀 React Native & Expo CI/CD Pipeline
 
-[![GitHub stars](https://img.shields.io/github/stars/Tanayk07/expo-react-native-cicd.svg?style=social&label=Star)](https://github.com/Tanayk07/expo-react-native-cicd/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/TanayK07/expo-react-native-cicd.svg?style=social&label=Star)](https://github.com/TanayK07/expo-react-native-cicd/stargazers/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Tanayk07/expo-react-native-cicd/react-native-cicd.yml?branch=main&label=CI%2FCD)](https://github.com/Tanayk07/expo-react-native-cicd/actions)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tanayk07/expo-react-native-cicd/pulls)
-[![GitHub issues](https://img.shields.io/github/issues/Tanayk07/expo-react-native-cicd)](https://github.com/Tanayk07/expo-react-native-cicd/issues)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/TanayK07/expo-react-native-cicd/react-native-cicd.yml?branch=main&label=CI%2FCD)](https://github.com/TanayK07/expo-react-native-cicd/actions)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/TanayK07/expo-react-native-cicd/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/TanayK07/expo-react-native-cicd)](https://github.com/TanayK07/expo-react-native-cicd/issues)
 
 A powerful, automated CI/CD workflow for React Native and Expo applications. Build, test, and deploy your mobile apps with ease using GitHub Actions.
 
@@ -16,13 +16,14 @@ A powerful, automated CI/CD workflow for React Native and Expo applications. Bui
 - ☁️ **Cloud Storage Integration**: Automatic upload to your preferred cloud storage (Zoho Drive, Google Drive, etc.)
 - 📦 **Artifact Management**: GitHub-hosted build artifacts for easy access
 - 🛠️ **Optimized Configuration**: Properly configured Metro bundler and EAS CLI
+- 📋 **Multiple Deployment Options**: GitHub Releases, cloud storage, or both
 
 ## 📋 Prerequisites
 
 - React Native / Expo project
 - GitHub repository
 - [Expo account](https://expo.dev/) (for EAS builds)
-- Cloud storage account (Zoho Drive, Google Drive, Dropbox, etc.) for build distribution
+- Cloud storage account (Zoho Drive, Google Drive, Dropbox, etc.) for build distribution (optional)
 
 ## ⚙️ Setup Instructions
 
@@ -77,6 +78,16 @@ my-expo-app/
 ├── metro.config.js
 └── package.json
 ```
+
+## 🧰 Example Workflows
+
+This repository includes several example workflows for different deployment scenarios:
+
+1. **Generalized Workflow**: Cloud-agnostic storage integration (main workflow)
+2. **GitHub Releases**: Create draft releases with artifacts and changelogs
+3. **Zoho Drive Integration**: Specialized workflow for Zoho Drive storage
+
+Check the [examples directory](./examples) for these workflow templates and instructions on how to use them.
 
 ## 🧰 EAS Configuration
 
@@ -134,6 +145,6 @@ This project is [MIT](LICENSE) licensed.
 
 ---
 
-Made with ❤️ by [Tanay Kedia](https://github.com/Tanayk07)
+Made with ❤️ by [Tanay Kedia](https://github.com/TanayK07)
 
 ⭐️ If you found this project helpful, please star it on GitHub!
