@@ -3,8 +3,20 @@ name: React Native CI/CD
 on:
   push:
     branches: [main, master, develop]
+    paths-ignore:
+      - "**.md"
+      - "LICENSE"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/PULL_REQUEST_TEMPLATE.md"
+      - "docs/**"
   pull_request:
     branches: [main, master]
+    paths-ignore:
+      - "**.md"
+      - "LICENSE"
+      - ".github/ISSUE_TEMPLATE/**"
+      - ".github/PULL_REQUEST_TEMPLATE.md"
+      - "docs/**"
   workflow_dispatch:
     inputs:
       buildType:
@@ -25,7 +37,16 @@ env:
   NODE_OPTIONS: --openssl-legacy-provider
 
 jobs:
+  # Skip CI job if commit message contains [skip ci]
+  check-skip:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - name: Skip CI check
+        run: echo "Proceeding with workflow"
+
   test:
+    needs: check-skip
     runs-on: ubuntu-latest
     steps:
       - name: 🏗 Checkout repository

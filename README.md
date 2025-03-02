@@ -1,9 +1,10 @@
 # 🚀 React Native & Expo CI/CD Pipeline
 
-[![GitHub stars](https://img.shields.io/github/stars/Tanayk07/react-native-expo-cicd.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Tanayk07/react-native-expo-cicd/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/Tanayk07/expo-react-native-cicd.svg?style=social&label=Star)](https://github.com/Tanayk07/expo-react-native-cicd/stargazers/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/Tanayk07/react-native-expo-cicd/workflows/React%20Native%20CI/CD/badge.svg)](https://github.com/Tanayk07/react-native-expo-cicd/actions)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tanayk07/react-native-expo-cicd/pulls)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Tanayk07/expo-react-native-cicd/react-native-cicd.yml?branch=main&label=CI%2FCD)](https://github.com/Tanayk07/expo-react-native-cicd/actions)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tanayk07/expo-react-native-cicd/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/Tanayk07/expo-react-native-cicd)](https://github.com/Tanayk07/expo-react-native-cicd/issues)
 
 A powerful, automated CI/CD workflow for React Native and Expo applications. Build, test, and deploy your mobile apps with ease using GitHub Actions.
 
@@ -133,6 +134,6 @@ This project is [MIT](LICENSE) licensed.
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/Tanayk07)
+Made with ❤️ by [Tanay Kedia](https://github.com/Tanayk07)
 
-⭐️ If you found this project helpful, please star it on GitHub! ⭐️
+⭐️ If you found this project helpful, please star it on GitHub!
