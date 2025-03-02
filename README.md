@@ -18,6 +18,20 @@ A powerful, automated CI/CD workflow for React Native and Expo applications. Bui
 - 🛠️ **Optimized Configuration**: Properly configured Metro bundler and EAS CLI
 - 📋 **Multiple Deployment Options**: GitHub Releases, cloud storage, or both
 
+## ⚠️ Important Note
+
+This repository contains **example workflow templates** in the `examples/` directory. These are not active workflows but rather templates that you can copy to your own project's `.github/workflows/` directory.
+
+To use any of these workflows:
+
+1. Choose the workflow that best fits your needs from the `examples/` directory
+2. Create a `.github/workflows/` directory in your project if it doesn't exist
+3. Copy the chosen workflow file (e.g., `generalized-workflow.yml`) into your `.github/workflows/` directory
+4. Rename it if desired (e.g., to `react-native-cicd.yml`)
+5. Configure the necessary secrets in your GitHub repository settings
+
+The workflows will not run in this repository - they are provided as ready-to-use templates for your own projects.
+
 ## 📋 Prerequisites
 
 - React Native / Expo project
