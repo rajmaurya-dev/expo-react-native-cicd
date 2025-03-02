@@ -1,9 +1,9 @@
 # 🚀 React Native & Expo CI/CD Pipeline
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/react-native-expo-cicd.svg?style=social&label=Star&maxAge=2592000)](https://github.com/yourusername/react-native-expo-cicd/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/Tanayk07/react-native-expo-cicd.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Tanayk07/react-native-expo-cicd/stargazers/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/yourusername/react-native-expo-cicd/workflows/React%20Native%20CI/CD/badge.svg)](https://github.com/yourusername/react-native-expo-cicd/actions)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourusername/react-native-expo-cicd/pulls)
+[![Build Status](https://github.com/Tanayk07/react-native-expo-cicd/workflows/React%20Native%20CI/CD/badge.svg)](https://github.com/Tanayk07/react-native-expo-cicd/actions)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Tanayk07/react-native-expo-cicd/pulls)
 
 A powerful, automated CI/CD workflow for React Native and Expo applications. Build, test, and deploy your mobile apps with ease using GitHub Actions.
 
@@ -133,6 +133,6 @@ This project is [MIT](LICENSE) licensed.
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/yourusername)
+Made with ❤️ by [Your Name](https://github.com/Tanayk07)
 
 ⭐️ If you found this project helpful, please star it on GitHub! ⭐️
