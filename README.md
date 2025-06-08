@@ -6,7 +6,13 @@
 [![GitHub stars](https://img.shields.io/github/stars/TanayK07/expo-react-native-cicd?style=social)](https://github.com/TanayK07/expo-react-native-cicd/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/TanayK07/expo-react-native-cicd)](https://github.com/TanayK07/expo-react-native-cicd/issues)
 
-> **[📹 Watch Demo Video](#)** - See how to set up your free CI/CD pipeline in under 5 minutes
+
+## 📹 Demo Video
+
+https://github.com/user-attachments/assets/bd1dd6dc-04b6-4b22-91c3-13721b2220e0
+
+*See how to set up your free CI/CD pipeline in under 5 minutes*
+
 
 **Save $100s monthly on Expo EAS build costs!** 🔥 Build, test, and deploy your React Native/Expo apps directly with GitHub Actions - no paid EAS subscription required.
 
