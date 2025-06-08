@@ -120,13 +120,6 @@ graph LR
 5. **Building**: Uses EAS CLI to build locally on the runner
 6. **Deployment**: Uploads artifacts to your chosen storage destination
 
-## 💡 Success Stories
-
-> "Saved $75/month by switching from EAS Build Premium to this GitHub Action. Setup took less than 10 minutes!" - **Alex M., Mobile Developer**
-
-> "Perfect for our startup. We can now build unlimited times without worrying about costs." - **Sarah K., CTO at TechStart**
-
-> "The workflow generator made customization super easy. Love the flexibility!" - **Mike R., React Native Developer**
 
 ## 🛡️ Security & Privacy
 
