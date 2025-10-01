@@ -143,6 +143,9 @@ graph LR
 
 **⭐️ If this action saved you time or money, consider starring the repo!**
 
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://buymeacoffee.com/Tanayk07)
+
+
 Made with ❤️ by [Tanay Kedia](https://github.com/TanayK07)
 
 [⬆ Back to Top](#-free-react-native--expo-cicd-builder)
