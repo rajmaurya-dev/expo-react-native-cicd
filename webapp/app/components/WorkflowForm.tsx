@@ -7,6 +7,7 @@ import { toast } from "sonner";
 const WorkflowForm: React.FC<WorkflowFormProps> = ({ onSubmit }) => {
 	const [formState, setFormState] = useState({
 		storageType: "github",
+		packageManager: "yarn",
 		buildTypes: ["dev", "prod-apk", "prod-aab"],
 		tests: ["typescript", "eslint", "prettier"],
 		triggers: ["push-main", "pull-request", "manual"],
@@ -298,6 +299,26 @@ const WorkflowForm: React.FC<WorkflowFormProps> = ({ onSubmit }) => {
 						option.
 					</p>
 				)}
+			</div>
+
+			<div className="space-y-2">
+				<label
+					htmlFor="package-manager"
+					className="block font-medium text-gray-700 dark:text-gray-300"
+				>
+					Which package manager do you use?
+				</label>
+				<select
+					id="package-manager"
+					name="package-manager"
+					value={formState.packageManager}
+					onChange={(e) => setFormState({ ...formState, packageManager: e.target.value })}
+					className="w-full p-2 border border-gray-300 dark:border-gray-700 rounded-md shadow-sm bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 focus:ring-primary-500 focus:border-primary-500"
+				>
+					<option value="yarn">Yarn</option>
+					<option value="npm">npm</option>
+					<option value="pnpm">pnpm</option>
+				</select>
 			</div>
 
 			<div className="space-y-2">
