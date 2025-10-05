@@ -22,6 +22,7 @@ export interface FormValues {
 	reactNativeCli?: string;
 	fastlane?: string;
 	workflow?: string;
+	packageManager?: string;
 	buildTypes: string[];
 	tests: string[];
 	triggers: string[];
@@ -58,6 +59,7 @@ export interface FormValuesTest {
 	fastlane: string;
 	workflow: "manual" | "scheduled";
 	eas: string;
+	packageManager: "npm" | "yarn" | "pnpm";
 	// Keep existing fields that might still be used elsewhere
 	buildTypes?: string[];
 	tests?: string[];
